@@ -1,0 +1,85 @@
+.navbar {
+    background-color: aqua;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display:inline-block;
+}
+
+html {
+    font-size:14px;
+}
+
+body {
+    font-size:100%;
+    
+}
+
+.header {
+    
+    width: 100%;
+    padding: 10em 0;
+    background-color: #900b;
+    background-image: url(../img/cat.jpg);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsla(49, 50%, 30%, 0.8);
+}
+a{
+    text-decoration: none;
+    color:red;
+    background-color: green;
+    font-size:1.5em;
+    padding: 10px 20px;
+    border:red 2px solid;
+    border-radius: 5px;
+}
+a:hover, a:focus {
+    background: white;
+    color:green;
+    border:green 2px solid;
+}
+.main{
+    width: 70%;
+    float:left;
+}
+.aside{
+    width:30%;
+    float:right;
+}
+.clear{
+    display:block;
+    content: '';
+    clear: both;
+}
+.table{
+    border:5px blue double;
+}
+.table td{
+    border:1px black solid;
+}
+.th{
+    background: red;
+}
+.qwer{
+    width: 30%;
+    display:inline-block;
+
+}
+.qwer img{
+    max-width: 100%;
+}
+.wrapper{
+    width: 90%;
+    margin:10px auto;
+}
+
+.qwer:hover{
+    background-image: url(../img/1.jpg);
+}
